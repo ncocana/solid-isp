@@ -19,8 +19,8 @@ This principle is important for several reasons. First, it helps to reduce the c
 
 ## Instructions
 
-In this exercise, we are interested in the users of the ```ProcesadorTexto ``` class who do not need the functionality to correct texts do not have any dependencies with the type ```Idioma```.   
+In this exercise, we are interested in the users of the ```ProcesadorTexto``` class who do not need the functionality to correct texts do not have any dependencies with the type ```Idioma```.   
 
-To do this, you must decompose the functionality of the ```ProcesadorTexto ``` class into two interfaces: a basic one (with the ```nueva()``` and ```texto()``` methods), and a more "complex" one with functionality for correction.   
+To do this, you must decompose the functionality of the ```ProcesadorTexto``` class into two interfaces: a basic one (with the ```nueva()``` and ```texto()``` methods), and a more "complex" one with functionality for correction.   
 
-Once decomposed, adapt the test to see that each one can use the type that should (i.e. the ```test_simple``` does not need the ```ProcesadorTexto ``` type with ```Idioma```).   
+Once decomposed, adapt the test to see that each one can use the type that should (i.e. the ```test_simple``` does not need the ```ProcesadorTexto``` type with ```Idioma```).   
